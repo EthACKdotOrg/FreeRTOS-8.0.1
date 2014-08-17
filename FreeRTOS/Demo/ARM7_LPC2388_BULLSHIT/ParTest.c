@@ -65,8 +65,8 @@
 
 /* FreeRTOS.org includes. */
 #include "FreeRTOS.h"
-
-/* Demo application includes. */
+#include "lpc23xx.h"
+/* Application includes. */
 #include "partest.h"
 
 #define partstFIRST_IO			( ( unsigned long ) 0x01 )
@@ -77,8 +77,7 @@
  * Simple parallel port IO routines.
  *-----------------------------------------------------------*/
 
-void vParTestInitialise( void )
-{
+void vParTestInitialise(void) {
 	PINSEL10 = 0;
 	FIO2DIR  = 0x000000FF;
 	FIO2MASK = 0x00000000;
@@ -89,58 +88,46 @@ void vParTestInitialise( void )
 }
 /*-----------------------------------------------------------*/
 
-void vParTestSetLED( unsigned portBASE_TYPE uxLED, signed portBASE_TYPE xValue )
-{
-unsigned long ulLED = partstFIRST_IO;
+void vParTestSetLED(unsigned portBASE_TYPE uxLED, signed portBASE_TYPE xValue) {
+	unsigned long ulLED = partstFIRST_IO;
 
-	if( uxLED < partstNUM_LEDS )
-	{
+	if(uxLED < partstNUM_LEDS) {
 		/* Rotate to the wanted bit of port */
 		ulLED <<= ( unsigned long ) uxLED;
 
 		/* Set of clear the output. */
-		if( xValue )
-		{
+		if(xValue) {
 			FIO2CLR = ulLED;
-		}
-		else
-		{
+		} else {
 			FIO2SET = ulLED;
 		}
 	}
 }
 /*-----------------------------------------------------------*/
 
-void vParTestToggleLED( unsigned portBASE_TYPE uxLED )
-{
-unsigned long ulLED = partstFIRST_IO, ulCurrentState;
+void vParTestToggleLED(unsigned portBASE_TYPE uxLED) {
+	unsigned long ulLED = partstFIRST_IO, ulCurrentState;
 
-	if( uxLED < partstNUM_LEDS )
-	{
+	if(uxLED < partstNUM_LEDS) {
 		/* Rotate to the wanted bit of port 0.  Only P10 to P13 have an LED
 		attached. */
 		ulLED <<= ( unsigned long ) uxLED;
 
 		/* If this bit is already set, clear it, and vice versa. */
 		ulCurrentState = FIO2PIN;
-		if( ulCurrentState & ulLED )
-		{
+		if(ulCurrentState & ulLED) {
 			FIO2CLR = ulLED;
-		}
-		else
-		{
+		} else {
 			FIO2SET = ulLED;			
 		}
 	}	
 }
 
 /*-----------------------------------------------------------*/
-unsigned portBASE_TYPE uxParTextGetLED( unsigned portBASE_TYPE uxLED )
-{
-unsigned long ulLED = partstFIRST_IO;
-    
-    ulLED <<= ( unsigned long ) uxLED;
+unsigned portBASE_TYPE uxParTextGetLED(unsigned portBASE_TYPE uxLED) {
+	unsigned long ulLED = partstFIRST_IO;
 
+    ulLED <<= ( unsigned long ) uxLED;
     return ( FIO2PIN & ulLED );
 }
 

@@ -31,9 +31,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1640452755" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
 								<option id="gnu.c.compiler.option.include.paths.1475228612" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="/home/virtual/arm-2014.05/arm-none-eabi/include"/>
-									<listOptionValue builtIn="false" value="../../FreeRTOS/Source/include/"/>
-									<listOptionValue builtIn="false" value="../../FreeRTOS/Source/portable/GCC/ARM7_LPC23xx/"/>
-									<listOptionValue builtIn="false" value="../../FreeRTOS/Demo/Common/include/"/>
+									<listOptionValue builtIn="false" value="../../Common/include/"/>
+									<listOptionValue builtIn="false" value="../../../Source/portable/GCC/ARM7_LPC23xx/"/>
+									<listOptionValue builtIn="false" value="../../../Source/include/"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1862609911" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
