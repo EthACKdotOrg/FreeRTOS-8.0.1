@@ -17,9 +17,10 @@
 #define mainFLASH_PRIORITY                  ( tskIDLE_PRIORITY + 2 )
 
 /* Constants to setup the PLL. */
-#define mainPLL_MUL			( ( unsigned long ) ( 36 - 1 ) ) // Multiply PLL Clock by 36
-#define mainPLL_DIV			( ( unsigned long ) 0x0002 ) // Divide the input clock by 3
-#define mainCPU_CLK_DIV		( ( unsigned long ) 0x0011 ) // Divide Fcco by 18
+#define mainPLL_MUL			( ( unsigned long ) ( 24 - 1 ) ) // Multiply PLL Clock by 24 to ahve 12*24 = 288
+#define mainPLL_DIV			( ( unsigned long ) 0x0000 ) // do not divide the PLL input
+#define mainUSB_CLK_DIV     ( ( unsigned long ) 0x0002 ) // Divide the PLL clock by 3 for USB to have 96
+#define mainCPU_CLK_DIV		( ( unsigned long ) 0x000b ) // Divide Fcco by 12 to have 288 / 12 = 24
 #define mainPLL_ENABLE		( ( unsigned long ) 0x0001 )
 #define mainPLL_CONNECT		( ( ( unsigned long ) 0x0002 ) | mainPLL_ENABLE )
 #define mainPLL_FEED_BYTE1	( ( unsigned long ) 0xaa )
@@ -71,6 +72,10 @@ void prvSetupHardware(void) {
 	MAMTIM = mainMAM_TIM_3;
 	MAMCR = mainMAM_MODE_FULL;
 	*/
+	USBCLKCFG = 2;
+
+	/* TODO put the USB initialization here */
+	/* TODO put the MMC initialization here */
 
 	/* Setup the led's on the MCB2300 board */
 	vParTestInitialise();
@@ -80,8 +85,6 @@ int main(void)  __attribute__((noreturn));
 
 int
 main(void) {
-	/* TODO put the USB initialization here */
-	/* TODO put the MMC initialization here */
 	vStartLEDFlashTasks(mainFLASH_PRIORITY);
     vStartQueuePeekTasks();
     vStartDynamicPriorityTasks();
