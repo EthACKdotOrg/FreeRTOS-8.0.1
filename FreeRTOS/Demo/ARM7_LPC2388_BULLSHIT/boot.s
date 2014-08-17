@@ -1,6 +1,7 @@
 	/* Sample initialization file */
 
 	.extern main
+	.extern prvSetupHardware
 	.extern exit
 
 	.text
@@ -106,7 +107,7 @@ _mainCRTStartup:
 
 	mov		r0, #0          /* no arguments  */
 	mov		r1, #0          /* no argv either */
-
+	bl		prvSetupHardware /* init hardware before executing main */
 	bl		main
 
 endless_loop:
