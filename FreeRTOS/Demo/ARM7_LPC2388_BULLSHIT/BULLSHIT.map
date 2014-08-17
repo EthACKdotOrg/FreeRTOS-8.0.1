@@ -1,0 +1,882 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divsi3.o)
+                              /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o (__aeabi_idiv)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_dvmd_tls.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divsi3.o) (__aeabi_idiv0)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-errno.o)
+                              ./syscalls.o (__errno)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-errno.o) (_impure_ptr)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+                              /home/virtual/freertos/FreeRTOS/Source//queue.o (memcpy)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+                              ./syscalls.o (memset)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+                              /home/virtual/freertos/FreeRTOS/Source//tasks.o (sprintf)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+                              /home/virtual/freertos/FreeRTOS/Source//tasks.o (strlen)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o) (_svfprintf_r)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (_dtoa_r)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (_localeconv_r)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (_malloc_r)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (memchr)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o) (_Balloc)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-s_fpclassify.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (__fpclassifyd)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o) (strcmp)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (__ssprint_r)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o) (_calloc_r)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o) (_free_r)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o) (memmove)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o) (_realloc_r)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivsi3.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_addsubdf3.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o) (__aeabi_dsub)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_muldivdf3.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o) (__aeabi_dmul)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_cmpdf2.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (__aeabi_dcmpeq)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_fixdfsi.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o) (__aeabi_d2iz)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_aeabi_uldivmod.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o) (__aeabi_uldivmod)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(bpabi.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_muldi3.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(bpabi.o) (__aeabi_lmul)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divdi3.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(bpabi.o) (__divdi3)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivdi3.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(bpabi.o) (__udivdi3)
+/home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_clzsi2.o)
+                              /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divdi3.o) (__clzsi2)
+
+Allocating common symbols
+Common symbol       size              file
+
+xHighPriorityTask   0x4               /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+xMediumPriorityTask
+                    0x4               /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+xHighestPriorityTask
+                    0x4               /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+xSuspendedTestQueue
+                    0x4               /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x00000000         0x00080000
+ram              0x40000000         0x00010000
+usbram           0x7fd00000         0x00004000
+ethram           0x7fe00000         0x00004000
+bootrom          0x00000000         0x00080000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+LOAD ./main.o
+LOAD ./ParTest.o
+LOAD ./syscalls.o
+LOAD /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+LOAD /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+LOAD /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+LOAD /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+LOAD /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+LOAD /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+LOAD /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+LOAD /home/virtual/freertos/FreeRTOS/Source//list.o
+LOAD /home/virtual/freertos/FreeRTOS/Source//queue.o
+LOAD /home/virtual/freertos/FreeRTOS/Source//tasks.o
+LOAD /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+LOAD /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+LOAD /tmp/ccXBq3G3.o
+START GROUP
+LOAD /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a
+LOAD /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a
+END GROUP
+                0x40007ffc                __stack_end__ = 0x40007ffc
+                0x00000000                . = 0x0
+
+startup         0x00000000       0x44
+ *(.startup)
+ .startup       0x00000000       0x44 /tmp/ccXBq3G3.o
+
+prog            0x00000048     0xa580
+ *(.text)
+ .text          0x00000048      0x280 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+                0x00000048                vPortISRStartFirstTask
+                0x00000094                vPortYieldProcessor
+                0x00000140                vPreemptiveTick
+                0x00000210                vPortDisableInterruptsFromThumb
+                0x00000228                vPortEnableInterruptsFromThumb
+                0x00000240                vPortEnterCritical
+                0x00000270                vPortExitCritical
+ .text          0x000002c8        0x8 ./main.o
+                0x000002c8                main
+                0x000002cc                vApplicationTickHook
+ .text          0x000002d0       0xf4 ./ParTest.o
+                0x000002d0                vParTestInitialise
+                0x00000310                vParTestSetLED
+                0x00000350                vParTestToggleLED
+                0x0000039c                uxParTextGetLED
+ .text          0x000003c4       0xec ./syscalls.o
+                0x000003c4                _read_r
+                0x000003e8                _lseek_r
+                0x000003fc                _write_r
+                0x00000410                _close_r
+                0x00000420                _sbrk_r
+                0x00000478                _fstat_r
+                0x000004a0                _isatty_r
+ .text          0x000004b0      0x390 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+                0x000004b0                vStartBlockingQueueTasks
+                0x0000079c                xAreBlockingQueuesStillRunning
+ .text          0x00000840      0x4ac /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+                0x00000840                vCreateBlockTimeTasks
+                0x00000c88                xAreBlockTimeTestTasksStillRunning
+ .text          0x00000cec       0xb8 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+                0x00000cec                vStartLEDFlashTasks
+ .text          0x00000da4      0x134 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+                0x00000da4                vStartIntegerMathTasks
+                0x00000e78                xAreIntegerMathsTaskStillRunning
+ .text          0x00000ed8      0x5b0 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+                0x00000ed8                vStartGenericQueueTasks
+                0x0000142c                xAreGenericQueueTasksStillRunning
+ .text          0x00001488      0x420 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+                0x00001488                vStartQueuePeekTasks
+                0x0000186c                xAreQueuePeekTasksStillRunning
+ .text          0x000018a8      0x368 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+                0x000018a8                vStartDynamicPriorityTasks
+                0x00001b94                xAreDynamicPriorityTasksStillRunning
+ .text          0x00001c10      0x138 /home/virtual/freertos/FreeRTOS/Source//list.o
+                0x00001c10                vListInitialise
+                0x00001c44                vListInitialiseItem
+                0x00001c54                vListInsertEnd
+                0x00001c90                vListInsert
+                0x00001cf8                uxListRemove
+ .text          0x00001d48      0x88c /home/virtual/freertos/FreeRTOS/Source//queue.o
+                0x00001d48                xQueueGenericReset
+                0x00001de4                xQueueGenericCreate
+                0x00001e68                xQueueCreateMutex
+                0x00001ef8                xQueueGenericSend
+                0x00002010                xQueueGenericSendFromISR
+                0x00002094                xQueueGenericReceive
+                0x00002200                xQueueReceiveFromISR
+                0x0000227c                xQueuePeekFromISR
+                0x000022c0                uxQueueMessagesWaiting
+                0x000022e0                uxQueueSpacesAvailable
+                0x00002308                uxQueueMessagesWaitingFromISR
+                0x0000231c                vQueueDelete
+                0x00002348                uxQueueGetQueueNumber
+                0x00002358                vQueueSetQueueNumber
+                0x00002368                ucQueueGetQueueType
+                0x00002558                xQueueIsQueueEmptyFromISR
+                0x000025ac                xQueueIsQueueFullFromISR
+ .text          0x000025d4     0x14c8 /home/virtual/freertos/FreeRTOS/Source//tasks.o
+                0x000025d4                xTaskGenericCreate
+                0x0000272c                vTaskDelete
+                0x000027c4                vTaskDelayUntil
+                0x0000285c                vTaskDelay
+                0x000028ac                uxTaskPriorityGet
+                0x000028e0                vTaskPrioritySet
+                0x000029f4                vTaskSuspend
+                0x00002aec                vTaskResume
+                0x00002b78                xTaskResumeFromISR
+                0x00002c1c                vTaskStartScheduler
+                0x00002c74                vTaskEndScheduler
+                0x00002c90                vTaskSuspendAll
+                0x00002ca0                xTaskResumeAll
+                0x00002d98                xTaskGetTickCount
+                0x00002db8                xTaskGetTickCountFromISR
+                0x00002dd0                uxTaskGetNumberOfTasks
+                0x00002ddc                uxTaskGetSystemState
+                0x00002ed8                xTaskIncrementTick
+                0x00003044                vTaskSwitchContext
+                0x000030d4                vTaskPlaceOnEventList
+                0x00003134                vTaskPlaceOnUnorderedEventList
+                0x000031a4                xTaskRemoveFromEventList
+                0x00003250                xTaskRemoveFromUnorderedEventList
+                0x000032e4                vTaskSetTimeOutState
+                0x00003304                xTaskCheckForTimeOut
+                0x0000338c                vTaskMissedYield
+                0x00003398                uxTaskGetTaskNumber
+                0x000033c0                vTaskSetTaskNumber
+                0x0000381c                xTaskGetCurrentTaskHandle
+                0x00003830                vTaskPriorityInherit
+                0x000038e8                vTaskPriorityDisinherit
+                0x00003968                vTaskList
+                0x00003a74                uxTaskResetEventItemValue
+ .text          0x00003a9c      0x1cc /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+                0x00003a9c                pxPortInitialiseStack
+                0x00003bd4                xPortStartScheduler
+                0x00003be8                vPortEndScheduler
+ .text          0x00003c68      0x1e0 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+                0x00003c68                pvPortMalloc
+                0x00003d80                vPortFree
+                0x00003df0                xPortGetFreeHeapSize
+                0x00003dfc                vPortInitialiseBlocks
+ .text          0x00003e48       0xc4 /tmp/ccXBq3G3.o
+                0x00003e48                start
+                0x00003ef0                endless_loop
+ .text          0x00003f0c      0x150 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divsi3.o)
+                0x00003f0c                __aeabi_idiv
+                0x00003f0c                __divsi3
+                0x0000403c                __aeabi_idivmod
+ .text          0x0000405c        0x4 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_dvmd_tls.o)
+                0x0000405c                __aeabi_ldiv0
+                0x0000405c                __aeabi_idiv0
+ .text          0x00004060        0xc /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-errno.o)
+                0x00004060                __errno
+ .text          0x0000406c        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .text          0x0000406c       0x88 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+                0x0000406c                memcpy
+ .text          0x000040f4       0xbc /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+                0x000040f4                memset
+ .text          0x000041b0       0x84 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+                0x000041b0                _sprintf_r
+                0x000041f0                sprintf
+ .text          0x00004234       0x10 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+                0x00004234                strlen
+ *fill*         0x00004244        0x4 
+ .text          0x00004248     0x1580 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+                0x00004248                _svfprintf_r
+ .text          0x000057c8     0x1148 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+                0x0000591c                _dtoa_r
+ .text          0x00006910       0xa0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                0x00006910                _setlocale_r
+                0x00006958                __locale_charset
+                0x00006960                __locale_mb_cur_max
+                0x0000696c                __locale_msgcharset
+                0x00006978                __locale_cjk_lang
+                0x0000697c                _localeconv_r
+                0x00006988                setlocale
+                0x000069a4                localeconv
+ .text          0x000069b0      0x508 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x000069b0                _malloc_r
+ .text          0x00006eb8       0x8c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+                0x00006eb8                memchr
+ .text          0x00006f44        0x8 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+                0x00006f44                __malloc_lock
+                0x00006f48                __malloc_unlock
+ *fill*         0x00006f4c        0x4 
+ .text          0x00006f50      0x968 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x00006f50                _Balloc
+                0x00006fa4                _Bfree
+                0x00006fbc                __multadd
+                0x00007068                __s2b
+                0x00007104                __hi0bits
+                0x00007144                __lo0bits
+                0x000071a4                __i2b
+                0x000071bc                __multiply
+                0x00007304                __pow5mult
+                0x000073c0                __lshift
+                0x00007484                __mcmp
+                0x000074c0                __mdiff
+                0x000075b0                __ulp
+                0x000075f8                __b2d
+                0x000076a8                __d2b
+                0x00007768                __ratio
+                0x000077dc                _mprec_log10
+                0x0000781c                __copybits
+                0x00007860                __any_on
+ .text          0x000078b8       0x5c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-s_fpclassify.o)
+                0x000078b8                __fpclassifyd
+ .text          0x00007914       0x14 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+                0x00007914                strcmp
+ .text          0x00007928      0xb88 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+                0x00007928                __ssprint_r
+                0x00007a4c                _svfiprintf_r
+ .text          0x000084b0       0x64 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+                0x000084b0                _calloc_r
+ .text          0x00008514      0x238 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+                0x00008514                _malloc_trim_r
+                0x000085b8                _free_r
+ .text          0x0000874c       0xa8 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+                0x0000874c                memmove
+ .text          0x000087f4      0x360 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+                0x000087f4                _realloc_r
+ .text          0x00008b54      0x11c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivsi3.o)
+                0x00008b54                __udivsi3
+                0x00008b54                __aeabi_uidiv
+                0x00008c50                __aeabi_uidivmod
+ .text          0x00008c70      0x41c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_addsubdf3.o)
+                0x00008c70                __aeabi_drsub
+                0x00008c78                __aeabi_dsub
+                0x00008c78                __subdf3
+                0x00008c7c                __adddf3
+                0x00008c7c                __aeabi_dadd
+                0x00008f8c                __aeabi_ui2d
+                0x00008f8c                __floatunsidf
+                0x00008fb0                __floatsidf
+                0x00008fb0                __aeabi_i2d
+                0x00008fd8                __extendsfdf2
+                0x00008fd8                __aeabi_f2d
+                0x00009018                __aeabi_ul2d
+                0x00009018                __floatundidf
+                0x0000902c                __floatdidf
+                0x0000902c                __aeabi_l2d
+ .text          0x0000908c      0x49c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_muldivdf3.o)
+                0x0000908c                __aeabi_dmul
+                0x0000908c                __muldf3
+                0x0000931c                __aeabi_ddiv
+                0x0000931c                __divdf3
+ .text          0x00009528      0x144 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_cmpdf2.o)
+                0x00009528                __gtdf2
+                0x00009528                __gedf2
+                0x00009530                __ltdf2
+                0x00009530                __ledf2
+                0x00009538                __cmpdf2
+                0x00009538                __eqdf2
+                0x00009538                __nedf2
+                0x000095c0                __aeabi_cdrcmple
+                0x000095dc                __aeabi_cdcmple
+                0x000095dc                __aeabi_cdcmpeq
+                0x000095f4                __aeabi_dcmpeq
+                0x0000960c                __aeabi_dcmplt
+                0x00009624                __aeabi_dcmple
+                0x0000963c                __aeabi_dcmpge
+                0x00009654                __aeabi_dcmpgt
+ .text          0x0000966c       0x5c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_fixdfsi.o)
+                0x0000966c                __fixdfsi
+                0x0000966c                __aeabi_d2iz
+ .text          0x000096c8       0x3c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_aeabi_uldivmod.o)
+                0x000096c8                __aeabi_uldivmod
+ .text          0x00009704       0x74 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(bpabi.o)
+                0x00009704                __gnu_ldivmod_helper
+                0x00009740                __gnu_uldivmod_helper
+ .text          0x00009778       0x4c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_muldi3.o)
+                0x00009778                __aeabi_lmul
+                0x00009778                __muldi3
+ .text          0x000097c4      0x3cc /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divdi3.o)
+                0x000097c4                __divdi3
+ .text          0x00009b90      0x378 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivdi3.o)
+                0x00009b90                __udivdi3
+ .text          0x00009f08       0x48 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_clzsi2.o)
+                0x00009f08                __clzsi2
+ .text.__stub   0x00009f50       0xf0 linker stubs
+ *(.rodata)
+ .rodata        0x0000a058       0x30 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+ .rodata        0x0000a088       0x10 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+ .rodata        0x0000a098        0x8 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+ .rodata        0x0000a0a0        0x8 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+ .rodata        0x0000a0a8       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+ .rodata        0x0000a0c8       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+ .rodata        0x0000a0e8       0x28 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+ .rodata        0x0000a110       0x1c /home/virtual/freertos/FreeRTOS/Source//tasks.o
+ .rodata        0x0000a12c        0x2 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+ *fill*         0x0000a12e        0x2 
+ .rodata        0x0000a130        0x4 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+                0x0000a130                _global_impure_ptr
+ .rodata        0x0000a134      0x184 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .rodata        0x0000a2b8      0x128 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+                0x0000a2c8                __mprec_tens
+                0x0000a390                __mprec_tinytens
+                0x0000a3b8                __mprec_bigtens
+ .rodata        0x0000a3e0      0x184 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ *(.rodata*)
+ .rodata.str1.4
+                0x0000a564        0x2 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x0000a566        0x2 
+ .rodata.str1.4
+                0x0000a568       0x42 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+                                 0x44 (size before relaxing)
+ *fill*         0x0000a5aa        0x2 
+ .rodata.str1.4
+                0x0000a5ac       0x10 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+                                 0x14 (size before relaxing)
+ .rodata.str1.4
+                0x0000a5bc        0xc /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                                 0x14 (size before relaxing)
+ .rodata.str1.4
+                0x00000000       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+                0x0000a5c8                __end_of_text__ = .
+
+.ARM.extab      0x0000a5c8        0x0
+ .ARM.extab     0x0000a5c8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divdi3.o)
+ .ARM.extab     0x0000a5c8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivdi3.o)
+
+.ARM.exidx      0x0000a5c8        0x8
+ .ARM.exidx     0x0000a5c8        0x8 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x0000a5d0        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+
+.vfp11_veneer   0x0000a5d0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0000a5d0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0000a5d0        0x0
+ .iplt          0x00000000        0x0 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+
+.rel.dyn        0x0000a5d0        0x0
+ .rel.iplt      0x00000000        0x0 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+
+.data           0x40000000      0x8cc load address 0x0000a5d0
+                0x40000000                __data_beg__ = .
+                0x0000a5c8                __data_beg_src__ = __end_of_text__
+ *(.data)
+ .data          0x40000000        0x4 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+                0x40000000                ulCriticalNesting
+ .data          0x40000004        0x0 ./main.o
+ .data          0x40000004        0x0 ./ParTest.o
+ .data          0x40000004        0x0 ./syscalls.o
+ .data          0x40000004        0x0 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+ .data          0x40000004        0x0 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+ .data          0x40000004        0x0 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+ .data          0x40000004        0x0 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+ .data          0x40000004        0x0 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+ .data          0x40000004        0x0 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+ .data          0x40000004        0x0 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+ .data          0x40000004        0x0 /home/virtual/freertos/FreeRTOS/Source//list.o
+ .data          0x40000004        0x0 /home/virtual/freertos/FreeRTOS/Source//queue.o
+ .data          0x40000004        0x4 /home/virtual/freertos/FreeRTOS/Source//tasks.o
+ .data          0x40000008        0x0 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+ .data          0x40000008        0x4 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+ .data          0x4000000c        0x0 /tmp/ccXBq3G3.o
+ .data          0x4000000c        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divsi3.o)
+ .data          0x4000000c        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_dvmd_tls.o)
+ .data          0x4000000c        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-errno.o)
+ *fill*         0x4000000c        0x4 
+ .data          0x40000010      0x430 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+                0x40000010                _impure_ptr
+ .data          0x40000440        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+ .data          0x40000440        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .data          0x40000440        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+ .data          0x40000440        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+ .data          0x40000440        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .data          0x40000440        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+ .data          0x40000440       0x7c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                0x40000460                __mb_cur_max
+ .data          0x400004bc      0x410 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x400004bc                __malloc_av_
+                0x400008c4                __malloc_sbrk_base
+                0x400008c8                __malloc_trim_threshold
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-s_fpclassify.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivsi3.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_addsubdf3.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_muldivdf3.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_cmpdf2.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_fixdfsi.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(bpabi.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_muldi3.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divdi3.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivdi3.o)
+ .data          0x400008cc        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_clzsi2.o)
+                0x400008cc                __data_end__ = .
+
+.igot.plt       0x400008cc        0x0 load address 0x0000ae9c
+ .igot.plt      0x00000000        0x0 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+
+.bss            0x400008cc     0x49ec load address 0x0000ae9c
+                0x400008cc                __bss_beg__ = .
+ *(.bss)
+ .bss           0x400008cc        0x0 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+ .bss           0x400008cc        0x0 ./main.o
+ .bss           0x400008cc        0x0 ./ParTest.o
+ .bss           0x400008cc        0x4 ./syscalls.o
+ .bss           0x400008d0       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+ .bss           0x400008f0       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+ .bss           0x40000910        0x4 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+ .bss           0x40000914        0x4 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+ .bss           0x40000918       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+ .bss           0x40000938        0xc /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+ .bss           0x40000944       0x28 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+ .bss           0x4000096c        0x0 /home/virtual/freertos/FreeRTOS/Source//list.o
+ .bss           0x4000096c        0x0 /home/virtual/freertos/FreeRTOS/Source//queue.o
+ .bss           0x4000096c       0xe8 /home/virtual/freertos/FreeRTOS/Source//tasks.o
+                0x4000096c                pxCurrentTCB
+ .bss           0x40000a54        0x0 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+ .bss           0x40000a54     0x4814 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+ .bss           0x40005268        0x0 /tmp/ccXBq3G3.o
+ .bss           0x40005268        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divsi3.o)
+ .bss           0x40005268        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_dvmd_tls.o)
+ .bss           0x40005268        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-errno.o)
+ .bss           0x40005268        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .bss           0x40005268        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+ .bss           0x40005268        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .bss           0x40005268        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+ .bss           0x40005268        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+ .bss           0x40005268        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .bss           0x40005268        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+ .bss           0x40005268        0xc /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+                0x40005268                _PathLocale
+                0x4000526c                __mlocale_changed
+                0x40005270                __nlocale_changed
+ .bss           0x40005274       0x34 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+                0x40005274                __malloc_top_pad
+                0x40005278                __malloc_current_mallinfo
+                0x400052a0                __malloc_max_sbrked_mem
+                0x400052a4                __malloc_max_total_mem
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-s_fpclassify.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivsi3.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(bpabi.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_muldi3.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divdi3.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivdi3.o)
+ .bss           0x400052a8        0x0 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_clzsi2.o)
+ COMMON         0x400052a8        0xc /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+                0x400052a8                xHighPriorityTask
+                0x400052ac                xMediumPriorityTask
+                0x400052b0                xHighestPriorityTask
+ COMMON         0x400052b4        0x4 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+                0x400052b4                xSuspendedTestQueue
+                0x400052b8                . = ALIGN (0x4)
+                0x400052b8                _bss_end__ = .
+                0x400052b8                __bss_end__ = .
+                0x400052b8                __end__ = .
+
+.usbram         0x7fd00000        0x0
+                0x7fd00000                __usbram_beg__ = .
+ *(.dmaram)
+                0x7fd00000                __usbram_end__ = .
+
+.ethram         0x7fe00000        0x0
+                0x7fe00000                __ethram_beg__ = .
+ *(.ethram)
+                0x7fe00000                __ethram_end__ = .
+                0x7fe00000                . = ALIGN (0x4)
+                0x7fe00000                _end = .
+                0x7fe00000                PROVIDE (end, .)
+OUTPUT(BULLSHIT.elf elf32-littlearm)
+
+.debug_frame    0x00000000     0x1828
+ .debug_frame   0x00000000       0x80 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+ .debug_frame   0x00000080       0x3c ./main.o
+ .debug_frame   0x000000bc       0x78 ./ParTest.o
+ .debug_frame   0x00000134       0xd0 ./syscalls.o
+ .debug_frame   0x00000204       0x90 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+ .debug_frame   0x00000294       0x90 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+ .debug_frame   0x00000324       0x50 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+ .debug_frame   0x00000374       0x70 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+ .debug_frame   0x000003e4       0xcc /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+ .debug_frame   0x000004b0       0xcc /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+ .debug_frame   0x0000057c       0xf0 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+ .debug_frame   0x0000066c       0x98 /home/virtual/freertos/FreeRTOS/Source//list.o
+ .debug_frame   0x00000704      0x2b0 /home/virtual/freertos/FreeRTOS/Source//queue.o
+ .debug_frame   0x000009b4      0x54c /home/virtual/freertos/FreeRTOS/Source//tasks.o
+ .debug_frame   0x00000f00       0x74 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+ .debug_frame   0x00000f74       0x88 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+ .debug_frame   0x00000ffc       0x20 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000101c       0x20 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-errno.o)
+ .debug_frame   0x0000103c       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000106c       0x38 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .debug_frame   0x000010a4       0x4c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+ .debug_frame   0x000010f0       0x20 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+ .debug_frame   0x00001110       0x3c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .debug_frame   0x0000114c       0x68 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+ .debug_frame   0x000011b4       0xa4 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+ .debug_frame   0x00001258       0x3c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00001294       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+ .debug_frame   0x000012c4       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+ .debug_frame   0x000012f4      0x278 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+ .debug_frame   0x0000156c       0x2c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x00001598       0x68 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .debug_frame   0x00001600       0x28 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+ .debug_frame   0x00001628       0x54 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+ .debug_frame   0x0000167c       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+ .debug_frame   0x000016ac       0x3c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+ .debug_frame   0x000016e8       0x20 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001708       0x28 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00001730       0x50 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(bpabi.o)
+ .debug_frame   0x00001780       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_muldi3.o)
+ .debug_frame   0x000017b0       0x3c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divdi3.o)
+ .debug_frame   0x000017ec       0x3c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivdi3.o)
+
+.debug_info     0x00000000     0x41cf
+ .debug_info    0x00000000      0x1e0 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+ .debug_info    0x000001e0       0x53 ./main.o
+ .debug_info    0x00000233      0x13d ./ParTest.o
+ .debug_info    0x00000370      0xbeb ./syscalls.o
+ .debug_info    0x00000f5b      0x308 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+ .debug_info    0x00001263      0x24a /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+ .debug_info    0x000014ad      0x133 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+ .debug_info    0x000015e0      0x179 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+ .debug_info    0x00001759      0x2a1 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+ .debug_info    0x000019fa      0x282 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+ .debug_info    0x00001c7c      0x30c /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+ .debug_info    0x00001f88      0x292 /home/virtual/freertos/FreeRTOS/Source//list.o
+ .debug_info    0x0000221a      0x97d /home/virtual/freertos/FreeRTOS/Source//queue.o
+ .debug_info    0x00002b97     0x1184 /home/virtual/freertos/FreeRTOS/Source//tasks.o
+ .debug_info    0x00003d1b      0x189 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+ .debug_info    0x00003ea4      0x2b9 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+ .debug_info    0x0000415d       0x72 /tmp/ccXBq3G3.o
+
+.debug_abbrev   0x00000000     0x1087
+ .debug_abbrev  0x00000000       0xb4 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+ .debug_abbrev  0x000000b4       0x51 ./main.o
+ .debug_abbrev  0x00000105       0x94 ./ParTest.o
+ .debug_abbrev  0x00000199      0x1ed ./syscalls.o
+ .debug_abbrev  0x00000386      0x100 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+ .debug_abbrev  0x00000486       0xe5 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+ .debug_abbrev  0x0000056b       0x95 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+ .debug_abbrev  0x00000600       0xcc /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+ .debug_abbrev  0x000006cc       0xe7 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+ .debug_abbrev  0x000007b3       0xf8 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+ .debug_abbrev  0x000008ab       0xff /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+ .debug_abbrev  0x000009aa       0xbe /home/virtual/freertos/FreeRTOS/Source//list.o
+ .debug_abbrev  0x00000a68      0x1a2 /home/virtual/freertos/FreeRTOS/Source//queue.o
+ .debug_abbrev  0x00000c0a      0x226 /home/virtual/freertos/FreeRTOS/Source//tasks.o
+ .debug_abbrev  0x00000e30       0xf3 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+ .debug_abbrev  0x00000f23      0x152 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+ .debug_abbrev  0x00001075       0x12 /tmp/ccXBq3G3.o
+
+.debug_aranges  0x00000000      0x228
+ .debug_aranges
+                0x00000000       0x20 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+ .debug_aranges
+                0x00000020       0x20 ./main.o
+ .debug_aranges
+                0x00000040       0x20 ./ParTest.o
+ .debug_aranges
+                0x00000060       0x20 ./syscalls.o
+ .debug_aranges
+                0x00000080       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+ .debug_aranges
+                0x000000a0       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+ .debug_aranges
+                0x000000c0       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+ .debug_aranges
+                0x000000e0       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+ .debug_aranges
+                0x00000100       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+ .debug_aranges
+                0x00000120       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+ .debug_aranges
+                0x00000140       0x20 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+ .debug_aranges
+                0x00000160       0x20 /home/virtual/freertos/FreeRTOS/Source//list.o
+ .debug_aranges
+                0x00000180       0x20 /home/virtual/freertos/FreeRTOS/Source//queue.o
+ .debug_aranges
+                0x000001a0       0x20 /home/virtual/freertos/FreeRTOS/Source//tasks.o
+ .debug_aranges
+                0x000001c0       0x20 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+ .debug_aranges
+                0x000001e0       0x20 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+ .debug_aranges
+                0x00000200       0x28 /tmp/ccXBq3G3.o
+
+.debug_line     0x00000000     0x1e05
+ .debug_line    0x00000000       0xec /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+ .debug_line    0x000000ec       0x3d ./main.o
+ .debug_line    0x00000129       0x57 ./ParTest.o
+ .debug_line    0x00000180      0x110 ./syscalls.o
+ .debug_line    0x00000290      0x1a4 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+ .debug_line    0x00000434      0x226 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+ .debug_line    0x0000065a      0x17d /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+ .debug_line    0x000007d7      0x149 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+ .debug_line    0x00000920      0x22d /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+ .debug_line    0x00000b4d      0x1bd /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+ .debug_line    0x00000d0a      0x1cd /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+ .debug_line    0x00000ed7      0x173 /home/virtual/freertos/FreeRTOS/Source//list.o
+ .debug_line    0x0000104a      0x357 /home/virtual/freertos/FreeRTOS/Source//queue.o
+ .debug_line    0x000013a1      0x67d /home/virtual/freertos/FreeRTOS/Source//tasks.o
+ .debug_line    0x00001a1e      0x19b /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+ .debug_line    0x00001bb9      0x1d1 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+ .debug_line    0x00001d8a       0x7b /tmp/ccXBq3G3.o
+
+.debug_str      0x00000000     0x224f
+ .debug_str     0x00000000      0x23a /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+                                0x273 (size before relaxing)
+ .debug_str     0x0000023a       0xb1 ./main.o
+                                 0xf7 (size before relaxing)
+ .debug_str     0x000002eb       0x70 ./ParTest.o
+                                0x1d8 (size before relaxing)
+ .debug_str     0x0000035b      0x4d6 ./syscalls.o
+                                0x680 (size before relaxing)
+ .debug_str     0x00000831      0x27d /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+                                0x408 (size before relaxing)
+ .debug_str     0x00000aae      0x171 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+                                0x329 (size before relaxing)
+ .debug_str     0x00000c1f       0x94 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+                                0x23b (size before relaxing)
+ .debug_str     0x00000cb3       0xb8 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+                                0x25f (size before relaxing)
+ .debug_str     0x00000d6b      0x199 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+                                0x36e (size before relaxing)
+ .debug_str     0x00000f04      0x118 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+                                0x311 (size before relaxing)
+ .debug_str     0x0000101c      0x213 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+                                0x3ef (size before relaxing)
+ .debug_str     0x0000122f      0x14c /home/virtual/freertos/FreeRTOS/Source//list.o
+                                0x2df (size before relaxing)
+ .debug_str     0x0000137b      0x3cb /home/virtual/freertos/FreeRTOS/Source//queue.o
+                                0x63e (size before relaxing)
+ .debug_str     0x00001746      0x8d3 /home/virtual/freertos/FreeRTOS/Source//tasks.o
+                                0xbd3 (size before relaxing)
+ .debug_str     0x00002019       0xc0 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+                                0x29c (size before relaxing)
+ .debug_str     0x000020d9      0x176 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+                                0x315 (size before relaxing)
+
+.comment        0x00000000       0x46
+ .comment       0x00000000       0x46 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+                                 0x47 (size before relaxing)
+ .comment       0x00000000       0x47 ./main.o
+ .comment       0x00000000       0x47 ./ParTest.o
+ .comment       0x00000000       0x47 ./syscalls.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Source//list.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Source//queue.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Source//tasks.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+ .comment       0x00000000       0x47 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+
+.ARM.attributes
+                0x00000000       0x2e
+ .ARM.attributes
+                0x00000000       0x30 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/portISR.o
+ .ARM.attributes
+                0x00000030       0x30 ./main.o
+ .ARM.attributes
+                0x00000060       0x30 ./ParTest.o
+ .ARM.attributes
+                0x00000090       0x30 ./syscalls.o
+ .ARM.attributes
+                0x000000c0       0x30 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//BlockQ.o
+ .ARM.attributes
+                0x000000f0       0x30 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//blocktim.o
+ .ARM.attributes
+                0x00000120       0x30 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//flash.o
+ .ARM.attributes
+                0x00000150       0x30 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//integer.o
+ .ARM.attributes
+                0x00000180       0x30 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//GenQTest.o
+ .ARM.attributes
+                0x000001b0       0x30 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//QPeek.o
+ .ARM.attributes
+                0x000001e0       0x30 /home/virtual/freertos/FreeRTOS/Demo/Common/Minimal//dynamic.o
+ .ARM.attributes
+                0x00000210       0x30 /home/virtual/freertos/FreeRTOS/Source//list.o
+ .ARM.attributes
+                0x00000240       0x30 /home/virtual/freertos/FreeRTOS/Source//queue.o
+ .ARM.attributes
+                0x00000270       0x30 /home/virtual/freertos/FreeRTOS/Source//tasks.o
+ .ARM.attributes
+                0x000002a0       0x30 /home/virtual/freertos/FreeRTOS/Source//portable/GCC/ARM7_LPC23xx/port.o
+ .ARM.attributes
+                0x000002d0       0x30 /home/virtual/freertos/FreeRTOS/Source//portable/MemMang/heap_2.o
+ .ARM.attributes
+                0x00000300       0x20 /tmp/ccXBq3G3.o
+ .ARM.attributes
+                0x00000320       0x18 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000338       0x16 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000034e       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000037e       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000003ae       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000003de       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000040e       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x0000043e       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000046e       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfprintf.o)
+ .ARM.attributes
+                0x0000049e       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x000004ce       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x000004fe       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0000052e       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x0000055e       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000058e       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x000005be       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-s_fpclassify.o)
+ .ARM.attributes
+                0x000005ee       0x1c /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000060a       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-svfiprintf.o)
+ .ARM.attributes
+                0x0000063a       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x0000066a       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0000069a       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x000006ca       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/thumb/libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x000006fa       0x18 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000712       0x18 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000072a       0x18 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000742       0x18 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000075a       0x18 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000772       0x18 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000078a       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x000007ba       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_muldi3.o)
+ .ARM.attributes
+                0x000007ea       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x0000081a       0x30 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000084a       0x18 /home/virtual/arm-2014.05/bin/../lib/gcc/arm-none-eabi/4.8.3/thumb/libgcc.a(_clzsi2.o)
+
+.debug_ranges   0x00000000       0x20
+ .debug_ranges  0x00000000       0x20 /tmp/ccXBq3G3.o
