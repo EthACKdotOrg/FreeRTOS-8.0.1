@@ -4,10 +4,10 @@ MEMORY
 	ram	     : ORIGIN = 0x40000000, LENGTH = 64K
 	usbram   : ORIGIN = 0x7FD00000, LENGTH = 16K
 	ethram   : ORIGIN = 0x7FE00000, LENGTH = 16K
-	bootrom  : ORIGIN = 0x80000000m LENGTH = 512K
+	bootrom  : ORIGIN = 0x80000000, LENGTH = 512K
 }
 
-__stack_end__ = 0x40000000 + 32K - 4;
+__stack_end__ = 0x40000000 + 64K - 4;
 
 
 SECTIONS 

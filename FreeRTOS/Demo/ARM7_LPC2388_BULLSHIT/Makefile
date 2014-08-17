@@ -56,9 +56,9 @@ RTOS_SOURCE_DIR=/home/virtual/freertos/FreeRTOS/Source/
 DEMO_COMMON_DIR=/home/virtual/freertos/FreeRTOS/Demo/Common/Minimal/
 DEMO_INCLUDE_DIR=/home/virtual/freertos/FreeRTOS/Demo/Common/include/
 
-CC=/home/virtual/arm-2014.05/bin/arm-none-eabi-gcc
-OBJCOPY=/home/virtual/arm-2014.05/bin/arm-none-eabi-objcopy
-LDSCRIPT=lpc2388.ld
+CC?=arm-none-eabi-gcc
+OBJCOPY?=arm-none-eabi-objcopy
+LDSCRIPT?=lpc2388.ld
 
 LINKER_FLAGS=-mthumb -nostartfiles -Xlinker -oBULLSHIT.elf -Xlinker -M -Xlinker -Map=BULLSHIT.map
 

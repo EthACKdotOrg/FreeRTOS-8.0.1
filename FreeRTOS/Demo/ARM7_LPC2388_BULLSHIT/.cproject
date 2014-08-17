@@ -4,7 +4,6 @@
 		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cross.base.332086986">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cross.base.332086986" moduleId="org.eclipse.cdt.core.settings" name="Default">
 				<macros>
-					<stringMacro name="CC" type="VALUE_TEXT" value="echo"/>
 					<stringListMacro name="PATH" type="VALUE_PATH_ANY_LIST">
 						<value name="/home/virtual/arm-2014.05/bin/"/>
 						<value name="/usr/bin"/>
@@ -28,7 +27,7 @@
 							<option id="cdt.managedbuild.option.gnu.cross.prefix.1248738257" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix"/>
 							<option id="cdt.managedbuild.option.gnu.cross.path.992884859" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.517256763" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
-							<builder buildPath="${workspace_loc:/ARM7_LPC2388_BULLSHIT}/" id="cdt.managedbuild.builder.gnu.cross.1954656129" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<builder arguments="CC=/home/virtual/arm-2014.05/bin/arm-none-eabi-gcc LD=/home/virtual/arm-2014.05/bin/arm-none-eabi-gcc OBJCOPY=/home/virtual/arm-2014.05/bin/arm-none-eabi-objcopy" buildPath="${workspace_loc:/ARM7_LPC2388_BULLSHIT}/" command="make" id="cdt.managedbuild.builder.gnu.cross.1954656129" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1640452755" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
 								<option id="gnu.c.compiler.option.include.paths.1475228612" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="/home/virtual/arm-2014.05/arm-none-eabi/include"/>
