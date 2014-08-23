@@ -70,6 +70,9 @@ CFLAGS= $(DEBUG) \
 		$(OPTIM) \
 		-T$(LDSCRIPT) \
 		-I . \
+		-I ./mmc \
+		-I ./usb \
+		-I ./dma \
 		-I $(RTOS_SOURCE_DIR)/include \
 		-I $(RTOS_SOURCE_DIR)/portable/GCC/ARM7_LPC23xx \
 		-I $(DEMO_INCLUDE_DIR) \
@@ -87,6 +90,9 @@ THUMB_SOURCE= \
 		./main.c \
 		./ParTest.c \
 		./syscalls.c \
+		./usb/usb_driver.c \
+		./mmc/mmc_driver.c \
+		./dma/dma_driver.c \
 		$(DEMO_COMMON_DIR)/BlockQ.c \
 		$(DEMO_COMMON_DIR)/blocktim.c \
 		$(DEMO_COMMON_DIR)/flash.c \

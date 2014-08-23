@@ -13,8 +13,11 @@
 #include "semphr.h"
 #include "flash.h"
 #include "lpc23xx.h"
+#include "mmc.h"
 
 #define mainFLASH_PRIORITY                  ( tskIDLE_PRIORITY + 2 )
+#define mainMMC_PRIORITY                    ( tskIDLE_PRIORITY + 4 )
+#define mainUSB_PRIORITY                    ( tskIDLE_PRIORITY + 10 )
 
 /* Constants to setup the PLL. */
 #define mainPLL_MUL			( ( unsigned long ) ( 24 - 1 ) ) // Multiply PLL Clock by 24 to ahve 12*24 = 288
@@ -73,11 +76,6 @@ void prvSetupHardware(void) {
 	MAMCR = mainMAM_MODE_FULL;
 	*/
 	USBCLKCFG = 2;
-
-	/* TODO put the USB initialization here */
-	/* TODO put the MMC initialization here */
-
-	/* Setup the led's on the MCB2300 board */
 	vParTestInitialise();
 }
 
@@ -85,6 +83,8 @@ int main(void)  __attribute__((noreturn));
 
 int
 main(void) {
+	mmc_init(mainMMC_PRIORITY);
+	usb_init(mainUSB_PRIORITY);
 	vStartLEDFlashTasks(mainFLASH_PRIORITY);
     vStartQueuePeekTasks();
     vStartDynamicPriorityTasks();
