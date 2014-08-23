@@ -81,6 +81,7 @@ void prvSetupHardware(void) {
 
 int
 main(void) {
+	dma_init();
 	mmc_init(mainMMC_PRIORITY);
 	usb_init(mainUSB_PRIORITY);
 	vStartLEDFlashTasks(mainFLASH_PRIORITY);

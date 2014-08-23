@@ -8,4 +8,7 @@
  * See the LICENSE file for more information about the GPLv3.
  */
 
-
+void
+usb_init(void) {
+	// TODO
+}

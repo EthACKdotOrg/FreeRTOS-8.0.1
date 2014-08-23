@@ -1,5 +1,5 @@
 /*
- * dma_driver.c
+ * usb.h
  *
  *  Created on: Aug 23, 2014
  *      Author: Aelia
@@ -8,8 +8,9 @@
  * See the LICENSE file for more information about the GPLv3.
  */
 
+#ifndef USB_H_
+#define USB_H_
 
-void
-dma_init(void) {
-	// TODO
-}
+void usb_init(void);
+
+#endif /* USB_H_ */
