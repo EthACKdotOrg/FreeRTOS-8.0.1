@@ -79,8 +79,6 @@ void prvSetupHardware(void) {
 	vParTestInitialise();
 }
 
-int main(void)  __attribute__((noreturn));
-
 int
 main(void) {
 	mmc_init(mainMMC_PRIORITY);
@@ -90,7 +88,6 @@ main(void) {
     vStartDynamicPriorityTasks();
 	/* Start the scheduler. */
 	vTaskStartScheduler();
-	while(1);
 }
 
 void vApplicationTickHook(void) {
