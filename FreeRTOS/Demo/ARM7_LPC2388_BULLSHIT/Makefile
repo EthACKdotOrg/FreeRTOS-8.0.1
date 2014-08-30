@@ -73,9 +73,10 @@ CFLAGS= $(DEBUG) \
 		-I ./mmc \
 		-I ./usb \
 		-I ./dma \
+		-I ./uart \
+		-I ./debug \
 		-I $(RTOS_SOURCE_DIR)/include \
 		-I $(RTOS_SOURCE_DIR)/portable/GCC/ARM7_LPC23xx \
-		-I $(DEMO_INCLUDE_DIR) \
 		-D ROWLEY_LPC23xx \
 		-D THUMB_INTERWORK \
 		-mcpu=arm7tdmi \
@@ -88,23 +89,17 @@ CFLAGS= $(DEBUG) \
 		
 THUMB_SOURCE= \
 		./main.c \
-		./ParTest.c \
 		./syscalls.c \
 		./usb/usb_driver.c \
+		./uart/uart_driver.c \
+		./debug/printf-stdarg.c \
 		./mmc/mmc_driver.c \
 		./dma/dma_driver.c \
-		$(DEMO_COMMON_DIR)/BlockQ.c \
-		$(DEMO_COMMON_DIR)/blocktim.c \
-		$(DEMO_COMMON_DIR)/flash.c \
-		$(DEMO_COMMON_DIR)/integer.c \
-		$(DEMO_COMMON_DIR)/GenQTest.c \
-		$(DEMO_COMMON_DIR)/QPeek.c \
-		$(DEMO_COMMON_DIR)/dynamic.c \
-		$(RTOS_SOURCE_DIR)/list.c \
+		$(RTOS_SOURCE_DIR)/portable/GCC/ARM7_LPC23xx/port.c \
+		$(RTOS_SOURCE_DIR)/portable/MemMang/heap_2.c \
 		$(RTOS_SOURCE_DIR)/queue.c \
 		$(RTOS_SOURCE_DIR)/tasks.c \
-		$(RTOS_SOURCE_DIR)/portable/GCC/ARM7_LPC23xx/port.c \
-		$(RTOS_SOURCE_DIR)/portable/MemMang/heap_2.c
+		$(RTOS_SOURCE_DIR)/list.c
 
 ARM_SOURCE= \
 		$(RTOS_SOURCE_DIR)/portable/GCC/ARM7_LPC23xx/portISR.c
