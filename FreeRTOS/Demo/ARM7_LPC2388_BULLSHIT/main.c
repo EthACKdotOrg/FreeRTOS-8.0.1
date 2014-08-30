@@ -11,16 +11,16 @@
 #include "task.h"
 #include "queue.h"
 #include "semphr.h"
-#include "flash.h"
 #include "lpc23xx.h"
 #include "mmc.h"
+#include "uart.h"
 
 #define mainFLASH_PRIORITY                  ( tskIDLE_PRIORITY + 2 )
 #define mainMMC_PRIORITY                    ( tskIDLE_PRIORITY + 4 )
 #define mainUSB_PRIORITY                    ( tskIDLE_PRIORITY + 10 )
 
 /* Constants to setup the PLL. */
-#define mainPLL_MUL			( ( unsigned long ) ( 24 - 1 ) ) // Multiply PLL Clock by 24 to ahve 12*24 = 288
+#define mainPLL_MUL			( ( unsigned long ) ( 24 - 1 ) ) // Multiply PLL Clock by 24 to have 12*24 = 288
 #define mainPLL_DIV			( ( unsigned long ) 0x0000 ) // do not divide the PLL input
 #define mainUSB_CLK_DIV     ( ( unsigned long ) 0x0002 ) // Divide the PLL clock by 3 for USB to have 96
 #define mainCPU_CLK_DIV		( ( unsigned long ) 0x000b ) // Divide Fcco by 12 to have 288 / 12 = 24
@@ -30,7 +30,7 @@
 #define mainPLL_FEED_BYTE2	( ( unsigned long ) 0x55 )
 #define mainPLL_LOCK		( ( unsigned long ) 0x4000000 )
 #define mainPLL_CONNECTED	( ( unsigned long ) 0x2000000 )
-#define mainOSC_ENABLE		( ( unsigned long ) 0x20 )
+#define mainOSC_ENABLE		( ( unsigned long ) (1<<4|1<<5) )
 #define mainOSC_STAT		( ( unsigned long ) 0x40 )
 #define mainOSC_SELECT		( ( unsigned long ) 0x01 )
 
@@ -45,7 +45,7 @@ void prvSetupHardware(void) {
 	while( !( SCS & mainOSC_STAT ) );
 	CLKSRCSEL = mainOSC_SELECT;
 
-	/* Setup the PLL to multiply the XTAL input by 36/3. */
+	/* Setup the PLL to multiply the XTAL input by 24. */
 	PLLCFG = ( mainPLL_MUL | mainPLL_DIV );
 	PLLFEED = mainPLL_FEED_BYTE1;
 	PLLFEED = mainPLL_FEED_BYTE2;
@@ -76,7 +76,7 @@ void prvSetupHardware(void) {
 	MAMCR = mainMAM_MODE_FULL;
 	*/
 	USBCLKCFG = 2;
-	vParTestInitialise();
+	//vParTestInitialise();
 }
 
 int
@@ -84,9 +84,6 @@ main(void) {
 	dma_init();
 	mmc_init(mainMMC_PRIORITY);
 	usb_init(mainUSB_PRIORITY);
-	vStartLEDFlashTasks(mainFLASH_PRIORITY);
-    vStartQueuePeekTasks();
-    vStartDynamicPriorityTasks();
 	/* Start the scheduler. */
 	vTaskStartScheduler();
 }
